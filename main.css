@@ -1,4 +1,4 @@
-div, h1, .container-fluid, .container, .row, img{
+div, h1, .container-fluid, .container, .row, img, a{
     padding: 0%;
     margin: 0%;
 }
@@ -46,7 +46,7 @@ header {
     float: left;
     top: 0%;
     left: 0%;
-    margin-right: 2%;
+    margin-right: 4%;
     margin-left: 7%;
     padding: 0%;
     height : 115px;
@@ -91,12 +91,23 @@ footer{
     border-style: solid;
 }
 
-.materials-button{
-    height: max-content; 
+.materials-button-vertical{
+    /* height: max-content;  */
+    height: 250px;
     position: relative;
+    color: white;
 }
+
+a .materials-button-horizontal{
+    /* height: max-content;  */
+    width: 250px;
+    position: relative;
+    color: black;
+}
+
 .text{
     position: absolute;
+    text-align: center;
 }
 
 i{
@@ -135,4 +146,15 @@ text-align: center;
     border: 1px solid #888;
     width: 80%;
     max-width: fit-content;
+}
+
+.model-photo{
+    height: 100%;
+    width: 100%;
+    min-height: 300px;
+    object-fit: contain;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    /* display: inline ; */
+    /* display: block; */
 }
