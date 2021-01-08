@@ -1,2 +1,2 @@
 # BBBP
-Micro site for Beti Bacho Beti Padho Guidlines
+Micro site for Beti Bacho Beti Padho Guidelines
