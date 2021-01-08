@@ -65,14 +65,13 @@ header {
 
 #back{
     box-shadow: none;
-    background-color: grey;
+    /* background-color: grey; */
     margin-left: 30px;
-    margin-top: 10px;
+    /* margin-top: 10px; */
 }
 
 footer{
     background-color: transparent;
-    /* display: inline; */
     clear: both;
     text-align: right;
     position: fixed;
@@ -92,17 +91,13 @@ footer{
 }
 
 .materials-button-vertical{
-    /* height: max-content;  */
     height: 250px;
     position: relative;
-    color: white;
 }
 
 a .materials-button-horizontal{
-    /* height: max-content;  */
     width: 250px;
     position: relative;
-    color: black;
 }
 
 .text{
@@ -115,12 +110,29 @@ i{
     color: blue;
 }
 
+#content, #navbar{
+    display: none;
+}
+
+#navbar{
+    height: 50px;
+}
+
+#target-aud{
+    /* display: flex; */
+    justify-content: center;
+    left: 35%;
+    transform: translate(50%, 50%);
+}
+
 .card-block{
     margin: 1%;
 }
+
 .card img{
     background-color: rgb(221, 223, 222);
 }
+
 .card-body{
 text-align: center;    
 }
