@@ -1,18 +1,20 @@
 div, h1, .container-fluid, .container, .row, img, a{
-    padding: 0%;
-    margin: 0%;
+    padding: 0vw;
+    margin: 0vw;
 }
 
 body{
     font-family: Arial, Helvetica, sans-serif;
     background-color: white;
-    margin:0;
-    padding:10px;
-    height:100%;
+    margin: 0vw;
+    padding: 0.5vw;
+    height: 100%;
+    width: 100%;
 }
 
 .base{
     min-height:100%; 
+    width: 100%;
     text-align: center; 
     align-content: center;
 }
@@ -20,17 +22,17 @@ body{
 header {
     background-color: white;
     text-align: left;
-    top: 0px;
-    margin-top: 0px;
-    height: 130px;
-    left: 0px;
-    right: 0px;
-    margin: 0%;
-    padding: 0%;
+    top: 0%;
+    margin-top: 0%;
+    height: 7vw;
+    left: 0vw;
+    right: 0vw;
+    margin: 0vw;
+    padding: 0vw;
     color: green;
-    border-top: 0px;
-    border-left: 0px;
-    border-right: 0px;
+    border-top: 0vw;
+    border-left: 0vw;
+    border-right: 0vw;
     border-bottom:  rgb(173, 173, 173);
     border-width: 2%;
     border-style: solid;
@@ -40,7 +42,8 @@ header {
     right: 0%;
     margin-right: 7%;
     padding: 0%;
-    height: 115px;
+    height: 6vw;
+    /* width: 100%; */
 }
 .bbbp-logo{
     float: left;
@@ -49,54 +52,55 @@ header {
     margin-right: 4%;
     margin-left: 7%;
     padding: 0%;
-    height : 115px;
+    height : 6vw;
+    /* width: 100%; */
 }
 
 .title{
     padding: 1%;
     font-weight: bold;
+    font-size: 2vw;
+    text-align: left;
 }
 
 .fa-angle-left{
-    height: 15px;
+    height: 1vh;
     margin: 0.5%;
     color: white;
 }
 
 #back{
     box-shadow: none;
-    /* background-color: grey; */
     margin-left: 30px;
-    /* margin-top: 10px; */
 }
 
 footer{
-    background-color: transparent;
-    clear: both;
+    background-color: white;
     text-align: right;
     position: fixed;
-    bottom: 0px;
-    margin-top: 0px;
-    left: 0px;
-    right: 0px;
+    bottom: 0vw;
+    margin-top: 0vw;
+    height: 3vw;
+    left: 0vw;
+    right: 0vw;
     margin: 0%;
     padding: 0%;
     color: green;
-    border-bottom: 0px;
-    border-left: 0px;
-    border-right: 0px;
+    border-bottom: 0vw;
+    border-left: 0vw;
+    border-right: 0vw;
     border-top: rgb(173, 173, 173);
     border-width: 2%;
     border-style: solid;
 }
 
 .materials-button-vertical{
-    height: 250px;
+    height: 13vw;
     position: relative;
 }
 
-a .materials-button-horizontal{
-    width: 250px;
+.materials-button-horizontal{
+    width: 13vw;
     position: relative;
 }
 
@@ -106,7 +110,8 @@ a .materials-button-horizontal{
 }
 
 i{
-    margin: 7px;
+    margin: 0.5vw;
+    margin-top: 0vw;
     color: blue;
 }
 
@@ -114,9 +119,9 @@ i{
     display: none;
 }
 
-#navbar{
-    height: 50px;
-}
+/* #navbar{
+    height: 5vh;
+} */
 
 #target-aud{
     /* display: flex; */
@@ -143,8 +148,8 @@ text-align: center;
     z-index: 1; /* Sit on top */
     padding-top: 100px; /* Location of the box */
     padding-bottom: 100px; /* Location of the box */
-    left: 0;
-    top: 0;
+    left: 0vw;
+    top: 0vw;
     width: 100%; /* Full width */
     height: 100%; /* Full height */
     overflow: auto; /* Enable scroll if needed */
@@ -167,6 +172,4 @@ text-align: center;
     object-fit: contain;
     padding-top: 10px;
     padding-bottom: 10px;
-    /* display: inline ; */
-    /* display: block; */
 }
