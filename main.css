@@ -108,8 +108,9 @@ i{
 }
 
 #target-icon{
-    height: 5vw;
-    width: 4vw;
+    max-height: 4vw;
+    max-width: 3vw;
+    background-color: transparent;
 }
 
 #target-aud{
@@ -123,6 +124,10 @@ i{
     /* height: 100%; */
     padding: 0%;
     margin-bottom: 5%;
+}
+
+.tg{
+    font-size: 1.25vw;
 }
 
 .card-block{
